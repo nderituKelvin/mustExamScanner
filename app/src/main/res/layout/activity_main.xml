@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00ee77">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#00ee77"
+    tools:context="com.kayvoh.must.MainActivity">
+
+    <ImageView
+        android:layout_height="100dp"
+        android:src="@drawable/must"
+        android:id="@+id/imgSplash"
+        android:layout_width="100dp"
+        android:padding="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_margin="20dp"
+        tools:ignore="ContentDescription"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/unitCode"
+        android:hint="@string/unit_code"
+        android:textColorHint="#555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/imgSplash"
+        android:layout_centerHorizontal="true"
+        android:drawableRight="@drawable/unit"
+        android:text="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lecReg"
+        android:hint="@string/txtLecNo"
+        android:textColorHint="#555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/unitCode"
+        android:drawableRight="@drawable/lecnum"
+        android:text="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lecPassword"
+        android:hint="@string/password"
+        android:textColorHint="#555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/lecReg"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:drawableRight="@drawable/password"
+        android:text="" />
+
+    <Button
+        android:text="@string/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/lecPassword"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/txtButton"
+        android:background="@color/buttons"
+        style="@style/Widget.AppCompat.ButtonBar"/>
+</RelativeLayout>
+</ScrollView>

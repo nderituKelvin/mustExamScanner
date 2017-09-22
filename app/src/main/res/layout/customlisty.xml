@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#998888"
+    android:id="@+id/custlayout"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRegNo"
+        android:text="Registration"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStatus"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/tvName"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00f" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:text="Kelvin"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/tvRegNo"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

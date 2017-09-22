@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MUST Exam Scanner</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">Invigilator Sign In</string>
+    <string name="serverIP">192.168.2.52:8080/meruPortal</string>
+    <string name="txtLecNo">Lecturer Number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="unit_code">Unit Code</string>
+</resources>
